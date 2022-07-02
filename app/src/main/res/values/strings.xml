@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Reto 1 Juan Osorio</string>
+    <string name="title_activity_sucursales">SucursalesActivity</string>
+    <string name="button">click button</string>
+    <string name="dialogTitle">Delete File</string>
+    <string name="dialogMessage">Deleting file may be harm your system</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="comprar">Comprar</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_sucursal_mapa">SucursalMapaActivity</string>
+    <string name="title_activity_sucursal_unicentro">SucursalUnicentroActivity</string>
+    <string name="title_activity_unicentro_sactivity">UnicentroSActivity</string>
+    <string name="title_activity_unicentro">UnicentroActivity</string>
+    <string name="title_activity_portal80">Portal80Activity</string>
+    <string name="title_activity_santa_fe">SantaFeActivity</string>
+    <string name="title_activity_palatino">PalatinoActivity</string>
+    <string name="title_activity_titan_plaza">TitanPlazaActivity</string>
+</resources>

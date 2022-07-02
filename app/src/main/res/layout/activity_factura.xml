@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3CA405"
+    android:isScrollContainer="true"
+    android:orientation="vertical"
+    tools:visibility="visible">
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/listadoProductosComprados"
+        android:layout_width="match_parent"
+        android:layout_height="497dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="0dp"
+        android:layout_marginBottom="0dp"
+        android:isScrollContainer="true"
+        tools:listitem="@layout/factura_view">
+
+    </androidx.recyclerview.widget.RecyclerView>
+
+    <Button
+        android:id="@+id/cancelarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#D61313"
+        android:text="@string/cancelar" />
+
+    <Button
+        android:id="@+id/comprarBtn"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:backgroundTint="#82B154"
+        android:text="@string/comprar"
+        android:textColor="#070000"
+        app:icon="@drawable/shopping_cart"
+        app:iconGravity="textStart"
+        app:iconSize="25dp"
+        app:iconTint="#000000" />
+
+
+</LinearLayout>
